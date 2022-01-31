@@ -1,0 +1,22 @@
+{
+  "name": "graphserver-traversy",
+  "version": "1.0.0",
+  "main": "server.js",
+  "author": "Scipio14 - Federico Macías",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "dev:server": "nodemon server.js",
+    "json:server": "json-server --watch data.json"
+  },
+  "dependencies": {
+    "axios": "0.25.0",
+    "express": "4.17.2",
+    "express-graphql": "0.12.0",
+    "graphql": "16.3.0",
+    "json-server": "0.17.0"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.15"
+  }
+}
